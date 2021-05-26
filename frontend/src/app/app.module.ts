@@ -12,6 +12,7 @@ import { AddPropertyComponent } from './property/add-property/add-property.compo
 import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
 import { UserLoginComponent } from './user/user-login/user-login.component';
 import { UserRegisterComponent } from './user/user-register/user-register.component';
+import { PropertyContactComponent } from './property/property-contact/property-contact.component';
 
 
 
@@ -22,6 +23,7 @@ const appRoutes:Routes=[
   {path: 'property-detail/:id', component: PropertyDetailComponent},
   {path: 'user/login', component: UserLoginComponent},
   {path: 'user/register', component: UserRegisterComponent},
+  {path: 'property-contact', component: PropertyContactComponent},
   {path: '**', component: PropertyListComponent}
 ]
 
@@ -34,7 +36,8 @@ const appRoutes:Routes=[
       AddPropertyComponent,
       PropertyDetailComponent,
       UserLoginComponent,
-      UserRegisterComponent
+      UserRegisterComponent,
+      PropertyContactComponent
    ],
   imports: [
     BrowserModule,
