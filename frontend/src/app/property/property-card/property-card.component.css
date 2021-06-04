@@ -1,24 +1,59 @@
+Skip to content
+Why GitHub?
+Team
+Enterprise
+Explore
+Marketplace
+Pricing
+Search
 
-.card-img-wrapper
-{
+Sign in
+Sign up
+webtrainer-in
+/
+HSPA
+1216
+Code
+Issues
+Pull requests
+6
+Actions
+Projects
+Wiki
+Security
+Insights
+HSPA/Frontend/src/app/property/property-card/property-card.component.css
+@webtrainer-in
+webtrainer-in Added Tab CSS, Form CSS, Hide Iconos on card
+…
+Latest commit 9145857 on Jun 25, 2020
+ History
+ 1 contributor
+46 lines (36 sloc)  629 Bytes
+
+.card {
+  min-height: 400px;
+}
+
+.card-img-wrapper{
   overflow: hidden;
   position: relative;
 }
 
 .card:hover img{
-transform: scale(1.2,1.2);
-transition-duration:500ms ;
-transition-timing-function: ease-out;
-height: 250px;
-opacity: .7;
+  transform: scale(1.2,1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  height: 250px;
+  opacity: .7;
 }
 
 .card img{
   transform: scale(1,1);
-  transition-duration: 500ms ;
-  transition-timing-function: ease-out ;
-  height: 250px;
-  }
+  transition-duration: 500ms;
+  transition-timing-function: ease-out;
+  height: 250px
+}
 
 .member-icons{
   position: absolute;
@@ -26,16 +61,19 @@ opacity: .7;
   left: 0;
   right: 0;
   margin-right: auto;
-  margin-left: auto ;
+  margin-left: auto;
   opacity: 0;
 }
-.card-img-wrapper:hover .member-icons
-{
-bottom:0;
-opacity: 1;
+
+.card-img-wrapper:hover .member-icons{
+  bottom: 0;
+  opacity: 1;
 }
-.animate
-{
+
+.animate{
   transition: all 0.3s ease-in-out;
 }
+
+
+
 

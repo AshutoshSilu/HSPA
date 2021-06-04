@@ -27,7 +27,7 @@
     <!-- <li *ngIf="loggedIn()" class="nav-item">
       <a class="nav-link" (click)="onLogOut()" >LogOut</a>
     </li> -->
-<div class="dropdown mr-5" dropdown>
+<div *ngIf="loggedIn()" class="dropdown mr-5" dropdown>
   <a href="#" class="dropdown-toggle text-light" dropdownToggle (click)="false">
     Welcome {{loggedinUser}}
   </a>
